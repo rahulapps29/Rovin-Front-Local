@@ -5,7 +5,7 @@ form.addEventListener("submit", function (event) {
   const formData = new URLSearchParams(new FormData(form)); // Get form data
 
   // Build URL with query parameters
-  const url = `${"http://192.168.29.164:4000/api/tasks/d"}?${formData.toString()}`;
+  const url = `${"http://223.239.128.54:4000/api/tasks/d"}?${formData.toString()}`;
 
   console.log(formData.toString());
   // Fetch API data

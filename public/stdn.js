@@ -1,5 +1,5 @@
 // Example JSON data from an API endpoint
-const apiUrl = "http://192.168.29.164:4000/api/tasks/d";
+const apiUrl = "http://223.239.128.54:4000/api/tasks/d";
 
 // Fetch data from the API
 fetch(apiUrl)
